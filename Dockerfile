@@ -11,7 +11,7 @@ COPY package*.json ./
 RUN npm install
 
 # Copy the entire project to the working directory
-COPY /travelers-map/ ./
+COPY . ./
 
 # Build the Next.js project
 RUN npm run build
