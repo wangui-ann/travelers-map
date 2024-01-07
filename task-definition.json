@@ -1,0 +1,10 @@
+{
+  "family": "travelers-map-ecs-deployment",
+  "containerDefinitions": [
+    {
+      "name": "travelers-map",
+      "image": "wanguiann/travelers-map",
+
+    }
+  ]
+}
